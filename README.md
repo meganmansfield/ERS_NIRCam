@@ -6,11 +6,11 @@ Run the following commands to get started! These commands set up an environment 
 ```
 conda create -n ers-nircam python==3.9.7
 conda activate ers-nircam
-conda install jupyter
 git clone -b v0.5 https://github.com/kevin218/Eureka.git
 cd Eureka
 pip install -e '.[jwst]'
 cd ..
+conda install jupyter
 ```
 
 Ensure you are in the correct environment with ```conda env list```!

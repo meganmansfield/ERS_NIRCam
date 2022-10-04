@@ -11,6 +11,9 @@ cd Eureka
 pip install -e '.[jwst]'
 cd ..
 conda install jupyter
+ipython kernel install --user --name=ers-nircam
 ```
 
 Ensure you are in the correct environment with ```conda env list```!
+
+When opening the demo Jupyter Notebook, check to make sure that you are in the correct kernel by making sure the right-hand corner of the notebook says ```ers-nircam'''. If it doesn't, select the menu options Kernel --> Change kernel --> ers-nircam.

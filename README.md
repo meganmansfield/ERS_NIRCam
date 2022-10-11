@@ -6,11 +6,14 @@ Run the following commands to get started! These commands set up an environment 
 ```
 conda create -n ers-nircam python==3.9.7
 conda activate ers-nircam
-conda install jupyter
 git clone -b v0.5 https://github.com/kevin218/Eureka.git
 cd Eureka
 pip install -e '.[jwst]'
 cd ..
+conda install jupyter
+ipython kernel install --user --name=ers-nircam
 ```
 
 Ensure you are in the correct environment with ```conda env list```!
+
+When opening the demo Jupyter Notebook, check to make sure that you are in the correct kernel by making sure the right-hand corner of the notebook says ```ers-nircam'''. If it doesn't, select the menu options Kernel --> Change kernel --> ers-nircam.

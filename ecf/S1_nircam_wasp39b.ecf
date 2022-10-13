@@ -2,7 +2,7 @@
 
 # Stage 1 Documentation: https://eurekadocs.readthedocs.io/en/latest/ecf.html#stage-1
 
-suffix              uncal
+suffix              04103_*nrcalong_uncal
 
 # Control ramp fitting method
 ramp_fit_algorithm  'default'   #Options are 'default', 'mean', or 'differenced'

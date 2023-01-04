@@ -24,6 +24,7 @@ p3thresh        7           # X-sigma threshold for outlier rejection during bac
 # Spectral extraction parameters
 spec_hw         9          # Half-width of aperture region for spectral extraction (relative to source position)
 fittype         meddata     # Method for constructing spatial profile (Options: smooth, meddata, poly, gauss, wavelet, or wavelet2D)
+median_thresh   5           # X-sigma threshold when flagging outliers in median frame
 window_len      7          # Smoothing window length, when fittype = smooth
 prof_deg        3           # Polynomial degree, when fittype = poly
 p5thresh        7         # X-sigma threshold for outlier rejection while constructing spatial profile

@@ -6,11 +6,12 @@ Run the following commands to get started! These commands set up an environment 
 ```
 conda create -n ers-nircam python==3.9.7
 conda activate ers-nircam
-git clone -b v0.7 https://github.com/kevin218/Eureka.git
+git clone -b v0.8 https://github.com/kevin218/Eureka.git
 cd Eureka
 pip install -e '.[jwst]'
 cd ..
 conda install jupyter
+pip install stcal[opencv]
 ipython kernel install --user --name=ers-nircam
 ```
 

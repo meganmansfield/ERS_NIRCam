@@ -1,5 +1,5 @@
 # ERS_NIRCam
-Demonstration to duplicate the data reduction of a transit of WASP-39b observed with NIRCam/F322W2 as part of the JWST Transiting Exoplanet Early Release Science Program (ERS 1366). This demonstration follows the data reduction with Eureka! presented in Ahrer et al. (2022).
+Demonstration to duplicate the data reduction of a transit of WASP-39b observed with NIRCam/F322W2 as part of the JWST Transiting Exoplanet Early Release Science Program (ERS 1366). This demonstration follows the data reduction with Eureka! presented in Ahrer et al. (2022). Reduction demo DOI: 10.5281/zenodo.7510105
 
 Run the following commands to get started! These commands set up an environment with Eureka! v0.6 - see the Eureka! documentation at https://eurekadocs.readthedocs.io/en/latest/index.html for more information.
 
